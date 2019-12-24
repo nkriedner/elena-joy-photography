@@ -371,9 +371,11 @@ nav {
   .gallery img {
     grid-row: auto;
     grid-column: auto;
+    height: auto;
   }
   .gallery {
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-template-rows: repeat(auto, 1fr);
   }
   .gallery-head {
     display: none;
