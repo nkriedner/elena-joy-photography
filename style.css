@@ -376,6 +376,7 @@ footer h4 {
   .burger {
     position: relative;
     display: block;
+    cursor: pointer;
   }
   .burger span {
     padding: 0.2rem 2rem; /* creates the burger line thickness */
@@ -402,6 +403,23 @@ footer h4 {
     align-items: center;
     transition: transform 1s ease;
   }
+
+  .nav-open {
+    transform: translateX(-100%);
+  }
+  .toggle .line1 {
+    transform: rotateZ(45deg) translateY(300%);
+    background: white;
+  }
+  .toggle .line2 {
+    opacity: 0;
+  }
+  .toggle .line3 {
+    transform: rotateZ(-45deg) translateY(-300%);
+    background: white;
+  }
+
+  /*
   .menu-check {
     display: block;
     position: absolute;
@@ -411,16 +429,20 @@ footer h4 {
     width: 5rem;
     height: 5rem;
     cursor: pointer;
-    opacity: 0; /* makes it invisible */
+    opacity: 0;  -> makes it invisible
     z-index: 100;
   }
+*/
+  /*
   .menu-check:checked + .nav-links {
     transform: translateX(-100%);
   }
   .menu-check:checked ~ .burger span {
     background: white;
   }
+*/
   /* Creating an X when burger menu is open */
+  /*
   .menu-check:checked ~ .burger span:nth-child(1) {
     transform: rotateZ(45deg) translateY(300%);
   }
@@ -430,7 +452,7 @@ footer h4 {
   .menu-check:checked ~ .burger span:nth-child(3) {
     transform: rotateZ(-45deg) translateY(-300%);
   }
-  /*  */
+*/
 
   /* About section */
   .about-text div {
