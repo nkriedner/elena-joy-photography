@@ -1,3 +1,3 @@
-# elena-joy-photography
+# elena-joy-photography - HTML & CSS Example Website
 
-This is a project from Dev Ed's course "Creative HTML & CSS"
+Website-Project for Dev End's "Creative HTML & CSS" course - using HML & CSS.
